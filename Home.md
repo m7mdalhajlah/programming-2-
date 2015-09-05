@@ -54,9 +54,10 @@ This is all about the differences between programming languages and few major pr
 المصدر..
 http://efxkits.com/blog/types-of-programming-languages-with-differences/
 
-C++ compilers
+**C++ compilers**
 
 There are many compilers for C+++and theses are some of them..
+
 1 C++Builder Auth: Embarcadero (CodeGear)
 2 Turbo C++ Explorer
 Auth : Embarcadero (CodeGear)
@@ -72,8 +73,7 @@ Auth :LLVM Project
 9 Comeau C/C++ Auth: Comeau Computing
 10 CoSy compiler development system
 Auth: ACE Associated Compiler Experts
-11
-Digital Mars
+11 Digital Mars
 Auth:Digital Mars
 12 EDGE ARM C/C++
 Auth:Mentor Graphics
@@ -113,10 +113,13 @@ Auth:Microsoft
 Auth: IBM
 37 XL C/C++ Auth: IBM
 38 Wind River (Diab) Compiler Auth: Wind Rivers systems .
-What is the difference between the compilers in C++ programming?
+
+**What is the difference between the compilers in C++ programming?**
 
 The differences between compilers in C++ are very large in number .Few of them are : Optimization - routines are completely different. Clang/LLVm or Visual C++ are good for link-time optimization. Economy - some are available for free : GCC, Clang/LLVM, Visual Studio Express, etc. Back-end Tools - are completely different Visual Studio uses masm , link , cl and GCC uses gcc , g++ , cc1 , cc1plus and binutils . Exception Handling - Visual Studio is the "best" in terms of exception handling. Compiler which is mostly used on majority of online judges is the GCC. GCC means the GNU Compiler Collection, it is the front end for a collection of compilers and linkers. When compiling C++ it will usually call g++. As for g++ vs VC++, they are completely different compilers so there are a ton of differences. For example they will optimize code in different ways, they may have minor syntactical differences based on not following the standard correctly, different libraries, different headers, different implementations, etc... g++ can be used to compile projects on various different platforms, whereas VC++ is meant to only compile programs for the Windows platform.
-.. What are the different c++ standards?
+.. 
+
+**What are the different c++ standards?**
 The C++ standard consists of two parts: the core language and the C++ Standard Library. C++ programmers expect the latter on every major implementation of C++; it includes vectors, lists, maps, algorithms (find, for_each, binary_search, random_shuffle, etc.), sets, queues, stacks, arrays, tuples, input/output facilities (iostream, for reading from and writing to the console and files), smart pointers for automatic memory management, regular expression support, multi-threading library, atomics support (allowing a variable to be read or written to be at most one thread at a time without any external synchronisation), time utilities (measurement, getting current time, etc.), a system for converting error reporting that doesn't use C++ exceptions into C++ exceptions, a random number generator and a slightly modified version of the C standard library (to make it comply with the C++ type system).
 A large part of the C++ library is based on the Standard Template Library (STL). Useful tools provided by the STL include containers as the collections of objects (such as vectors and lists), iterators that provide array-like access to containers, and algorithms that perform operations such as searching and sorting.
 Furthermore, (multi)maps (associative arrays) and (multi)sets are provided, all of which export compatible interfaces. Therefore, using templates it is possible to write generic algorithms that work with any container or on any sequence defined by iterators. As in C, the features of the library are accessed by using the #include directive to include a standard header. C++ provides 105 standard headers, of which 27 are deprecated.
